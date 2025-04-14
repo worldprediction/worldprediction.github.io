@@ -65,15 +65,21 @@
 
 <section class="hero">
   <div class="hero-body">
-    <!-- FREE-STYLED TITLE OUTSIDE BULMA CONTAINER -->
-    <div style="text-align: center; max-width: 1000px; margin: 0 auto; padding: 0 1rem;">
-      <h1 class="title is-1 publication-title" style="font-size: 2.6rem;">
-        WorldPrediction: A Benchmark for High-Level World Modeling<br>
-        and Long-Horizon Procedural Planning
-      </h1>
+
+    <!-- Fixed-width centered title outside Bulma columns -->
+    <div style="
+      text-align: center;
+      font-size: 2.6rem;
+      font-weight: 700;
+      line-height: 1.3;
+      max-width: 1000px;
+      margin: 0 auto 2rem;
+    ">
+      WorldPrediction: A Benchmark for High-Level World Modeling<br>
+      and Long-Horizon Procedural Planning
     </div>
 
-    <!-- KEEP EVERYTHING ELSE THE SAME -->
+    <!-- Everything else stays in Bulma's container -->
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-three-quarters has-text-centered">
@@ -97,11 +103,12 @@
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Meta FAIR</span>
             <span class="author-block"><sup>2</sup>HKUST</span>
-            <span class="author-block"><sup>2</sup>ISIR, Sorbonne Université</span>
+            <span class="author-block"><sup>3</sup>ISIR, Sorbonne Université</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
+              <!-- PDF Link -->
               <span class="link-block">
                 <a href="https://arxiv.org/pdf/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
@@ -116,6 +123,7 @@
                   <span>arXiv</span>
                 </a>
               </span>
+              <!-- Code Link -->
               <span class="link-block">
                 <a href="https://github.com/google/nerfies"
                    class="external-link button is-normal is-rounded is-dark">
@@ -123,6 +131,7 @@
                   <span>Code</span>
                 </a>
               </span>
+              <!-- Dataset Link -->
               <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
